@@ -1,7 +1,7 @@
 public class BodyMassIndexService {
-    public double calculate(int a, double b) {
+    public double calculate(int bodyMass, double bodyHeight) {
         double bodyMassIndex;
-        bodyMassIndex = a / (b * b);
+        bodyMassIndex = bodyMass / (bodyHeight * bodyHeight);
         return bodyMassIndex;
     }
 }
